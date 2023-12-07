@@ -1,0 +1,31 @@
+.portfolio-card{
+    border-radius: 10px;
+    background-color: #4b484f;
+    width: 150px;
+    height: 200px;
+}
+.portfolio-image {
+    width: 90px;
+    height: auto;
+    margin: 20px 0 0 30px; 
+}
+
+.portfolio-title {
+    font-size: 20px;
+    // margin: 5px 0;
+    text-align: center;
+    color: white; /* White text color */
+    text-shadow: 
+      -1px -1px 1px #6382f4,  /* Top left */
+      2px 1px 3px #1F51FF,   /* Top right */
+      -1px 1px 1px #1F51FF,   /* Bottom left */
+      3px 3px 3px #1F51FF;    /* Bottom right */
+    padding: 10px; /* To make text rounded */
+    border-radius: 10px; /* To make text rounded */
+  }
+  
+.portfolio-subtitle {
+    font-size: 14px;
+    color: black;
+    margin: 0;
+}
