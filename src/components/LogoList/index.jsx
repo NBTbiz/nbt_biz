@@ -25,7 +25,7 @@ export default function LogoList() {
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_6.svg?updatedAt=1701759017697', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_6.svg?updatedAt=1701951864293', 
       alt:'client'
     },
   ]
@@ -59,7 +59,7 @@ export default function LogoList() {
 
   const partnerLogos_3 = [
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_13.svg?updatedAt=1701759018395', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_13.svg?updatedAt=1701948797640', 
       alt:'client'
     },
     {
@@ -86,7 +86,7 @@ export default function LogoList() {
 
   const partnerLogos_4 = [
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_19.svg?updatedAt=1701759023215', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_19.svg?updatedAt=1701951864297', 
       alt:'client'
     },
     {
@@ -98,7 +98,7 @@ export default function LogoList() {
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_22.svg?updatedAt=1701759023277', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_22.svg?updatedAt=1701951864414', 
       alt:'client'
     },
     {

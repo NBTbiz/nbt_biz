@@ -35,7 +35,7 @@ export default function AboutPage() {
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
               Our approach to business is rooted in the idea of building human brands.
-               As consultants and service providers, we are focused on the why of a brand’s existence.
+              As consultants and service providers, we focus on the 'why' behind a brand's existence.
                 We help brands build meaningful consumer relationships that are sustainable. 
               </p>
               <Spacing lg="30" md="30" />

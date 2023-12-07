@@ -47,10 +47,7 @@ export default function Header({ variant }) {
                      
                     </li>
                     <li>
-                      <NavLink
-                        to="about"
-                        onClick={() => setMobileToggle(false)}
-                      >
+                      <NavLink to="about" onClick={() => setMobileToggle(false)} >
                         About
                       </NavLink>
                     </li>
@@ -112,7 +109,7 @@ export default function Header({ variant }) {
           </Link>
           <Div className="cs-side_header_box">
             <h2 className="cs-side_header_heading">
-            CHAT WITH US OVER COFFEE, <br /> OR MAYBE A DRINK. <br /> We swear the first meeting will be on us.
+            CHAT WITH US OVER A COFFEE, <br /> OR MAYBE A DRINK. <br /> We swear the first meeting will be on us.
             </h2>
           </Div>
           <Div className="cs-side_header_box">  

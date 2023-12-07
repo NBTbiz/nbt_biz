@@ -92,7 +92,7 @@ export default function TeamDetails() {
       <Spacing lg='150' md='80'/>
       <Div className="container">
         <Cta 
-          title="Let’s discuss make <br />something <i>cool</i> together"
+          title="Let’s discuss and make <br />something <i>cool</i> together"
           btnText='Apply For Meeting' 
           btnLink='/nbt_biz/contact' 
           bgSrc='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/cta_bg.jpeg?updatedAt=1701762150722'
