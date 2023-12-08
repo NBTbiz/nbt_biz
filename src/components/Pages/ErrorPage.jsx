@@ -15,7 +15,7 @@ export default function ErrorPage() {
           title="This page could <br/>not be found."
           subtitle="404 Error"
           btnText="Back To Home"
-          btnLink="/nbt_biz"
+          btnLink="/"
           variant="cs-style1 text-center"
         />
       </Div>

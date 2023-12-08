@@ -41,7 +41,7 @@ export default function Header({ variant }) {
                     style={{ display: `${mobileToggle ? 'block' : 'none'}` }} >
                       
                     <li className="menu-item-has-children">
-                      <NavLink to="/nbt_biz" onClick={() => setMobileToggle(false)}>
+                      <NavLink to="/" onClick={() => setMobileToggle(false)}>
                         Home
                       </NavLink>
                      

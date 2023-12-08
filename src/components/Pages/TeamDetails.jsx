@@ -94,7 +94,7 @@ export default function TeamDetails() {
         <Cta 
           title="Let’s discuss and make <br />something <i>cool</i> together"
           btnText='Apply For Meeting' 
-          btnLink='/nbt_biz/contact' 
+          btnLink='/contact' 
           bgSrc='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/cta_bg.jpeg?updatedAt=1701762150722'
         />
       </Div>

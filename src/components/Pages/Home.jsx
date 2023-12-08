@@ -53,7 +53,7 @@ export default function Home() {
         title="It's the growth fizz That does the bizz"
         subtitle="We're a team of marketers, creatives, researchers, and tech enthusiasts. Together, we blend our skills to tackle business challenges informed by real human experiences. Our goal is simple: guiding brands to uncover their purpose and establish a lasting path to success."
         btnText="Get a Quote"
-        btnLink="/nbt_biz/contact"
+        btnLink="/contact"
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
@@ -81,7 +81,7 @@ export default function Home() {
                 title="Services we can help you with"
                 subtitle="What Can We Do"
                 btnText="See All Services"
-                btnLink="/nbt_biz/service"
+                btnLink="/service"
               />
               <Spacing lg="90" md="45" />
             </Div>
@@ -91,7 +91,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Content Creation"
-                    link="/nbt_biz/service"
+                    link="/service"
                     src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_2.webp?updatedAt=1701759513875"
                     alt="Service"
                   />
@@ -101,7 +101,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Influencer Marketing"
-                    link="/nbt_biz/service"
+                    link="/service"
                     src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_1.webp?updatedAt=1701759513873"
                     alt="Service"
                   />
@@ -110,7 +110,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Social Media Marketing"
-                    link="/nbt_biz/service"
+                    link="/service"
                     src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_3.webp?updatedAt=1701759514249"
                     alt="Service"
                   />
@@ -120,7 +120,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Digital Marketing"
-                    link="/nbt_biz/service"
+                    link="/service"
                     src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_5.webp?updatedAt=1701759513004"
                     alt="Service"
                   />
@@ -219,7 +219,7 @@ export default function Home() {
         <Cta
           title="Let’s discuss and make <br />something <i>cool</i> together"
           btnText="Apply For Meeting"
-          btnLink="/nbt_biz/contact"
+          btnLink="/contact"
           bgSrc="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/cta_bg.jpeg?updatedAt=1701762150722"
         />
       </Div>

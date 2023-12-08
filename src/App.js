@@ -22,7 +22,7 @@ function App() {
   return (
     <Suspense fallback={ <LoadingAnimation />}>
       <Routes>
-        <Route path="/nbt_biz" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="service" element={<ServicesPage />} />
