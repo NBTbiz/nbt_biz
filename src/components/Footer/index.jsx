@@ -51,7 +51,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget 
-                  logoSrc='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/NBT_logo.svg?updatedAt=1701762312345'
+                  logoSrc='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/NBT_logo.svg?updatedAt=1702460128837'
                   logoAlt='Logo'
                   text ='Welcome to NBT Business Solutions, where innovation meets expertise. We specialize in delivering comprehensive solutions tailored to your needs, ensuring seamless experiences and sustainable success. Explore with us as we redefine possibilities.'
                 />
