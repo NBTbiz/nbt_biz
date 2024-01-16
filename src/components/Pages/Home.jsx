@@ -51,7 +51,8 @@ export default function Home() {
      
       <Hero
         title="It's the growth fizz That does the bizz"
-        subtitle="We're a team of marketers, creatives, researchers, and tech enthusiasts. Together, we blend our skills to tackle business challenges informed by real human experiences. Our goal is simple: guiding brands to uncover their purpose and establish a lasting path to success."
+        subtitle="At NBT Business Solutions, we stand out as the premier digital marketing agency in Kerala, committed to being your strategic ally for success. More than just a digital marketing company, our team of marketers, creatives, researchers, and tech enthusiasts collaborates to tackle business challenges. 
+        Our mission is simple: guide brands to uncover their purpose and establish a lasting path to success. Choose the best – choose NBT Business Solutions, your top-tier digital marketing agency in Kerala."
         btnText="Get a Quote"
         btnLink="/contact"
         scrollDownId="#service"
@@ -92,7 +93,7 @@ export default function Home() {
                   <Card
                     title="Content Creation"
                     link="/service"
-                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_2.webp?updatedAt=1701759513875"
+                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_1.webp?updatedAt=1705301481137"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />
@@ -102,7 +103,7 @@ export default function Home() {
                   <Card
                     title="Influencer Marketing"
                     link="/service"
-                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_1.webp?updatedAt=1701759513873"
+                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_2.webp?updatedAt=1705301481319"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />
@@ -111,7 +112,7 @@ export default function Home() {
                   <Card
                     title="Social Media Marketing"
                     link="/service"
-                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_3.webp?updatedAt=1701759514249"
+                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_3.webp?updatedAt=1705301481185"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />
@@ -121,7 +122,7 @@ export default function Home() {
                   <Card
                     title="Digital Marketing"
                     link="/service"
-                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_5.webp?updatedAt=1701759513004"
+                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_4.webp?updatedAt=1705301481259"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />

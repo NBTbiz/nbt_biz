@@ -87,7 +87,7 @@ const high_Production = `
                 <Div className='col-lg-3 col-sm-6 '>
                   <Card
                     title='Influencer Marketing'
-                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_1.webp?updatedAt=1701759513873"
+                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_2.webp?updatedAt=1705301481319"
                     alt='Service'
                   />
                   <Spacing lg='0' md='30'/>
@@ -96,7 +96,7 @@ const high_Production = `
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
                     title='Web Development'
-                    src='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_4.webp?updatedAt=1701759513695'
+                    src='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_5.webp?updatedAt=1705301481289'
                     alt='Service'
                   />
                   <Spacing lg='0' md='30'/>
@@ -104,7 +104,7 @@ const high_Production = `
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
                     title='Content Creation'
-                    src='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_2.webp?updatedAt=1701759513875'
+                    src='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_1.webp?updatedAt=1705301481137'
                     alt='Service'
                   />
                   <Spacing lg='0' md='30'/>
@@ -113,7 +113,7 @@ const high_Production = `
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
                     title='Digital Marketing'
-                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_5.webp?updatedAt=1701759513004"
+                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_4.webp?updatedAt=1705301481259"
                     alt='Service'
                   />
                   <Spacing lg='0' md='30'/>
@@ -123,7 +123,7 @@ const high_Production = `
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
                     title='Social Media Marketing'
-                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_3.webp?updatedAt=1701759514249"
+                    src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_3.webp?updatedAt=1705301481185"
                     alt='Service'
                   />
                   <Spacing lg='0' md='30'/>
@@ -265,14 +265,14 @@ const high_Production = `
       {/* Influencer Marketing */}
 
        <Spacing lg='145' md='80'/>
-      <Div className="container">
+      <Div className="container ">
         <SectionHeading 
           title='Unlocking the Power of Influence' 
           subtitle='Influencer Marketing' 
           variant='cs-style1 text-center'
         />
         <Spacing lg='90' md='45'/>
-        <Div  id="influencerMarketing"  className="row">
+        <Div  id="influencerMarketing"  className="row justify-content-center">
           <Div className="col-lg-4">
             <IconBox
               icon='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_icon_1.svg?updatedAt=1701856065291'
@@ -304,7 +304,7 @@ const high_Production = `
               subtitle=''
             />
             <Spacing lg='30' md='30'/>
-            </Div>
+          </Div>
         </Div>
       </Div>
       {/*  */}
@@ -459,7 +459,7 @@ const high_Production = `
           variant='cs-style1 text-center'
         />
         <Spacing lg='90' md='45'/>
-        <Div className="row">
+        <Div className="row justify-content-center">
           <Div className="col-lg-4">
             <IconBox
               icon='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_icon_1.svg?updatedAt=1701856065291'

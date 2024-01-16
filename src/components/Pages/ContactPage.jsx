@@ -7,11 +7,25 @@ import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
 
+// import { Twilio } from 'twilio';   
+
 export default function ContactPage() {
   pageTitle('Contact Us');
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  // sendEmail() {
+  //   const client = Twilio('your_twilio_account_sid', 'your_twilio_auth_token');
+  //   client.messages
+  //     .create({
+  //        body: 'Hello from Twilio',
+  //        from: 'your_twilio_email',``
+  //        to: 'recipient_email'
+  //      })
+  //     .then(message => console.log(message.sid));
+  // };
+
   return (
     <>
       <PageHeading
