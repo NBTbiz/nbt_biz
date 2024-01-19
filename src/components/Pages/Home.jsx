@@ -1,5 +1,6 @@
 import React, { useEffect, lazy, useState } from 'react';
 import { pageTitle } from '../../helper';
+import Whatsapp from '../Whatsapp';
 
 const Card = lazy(() => import('../Card'));
 const FunFact = lazy(() => import('../FunFact'));
@@ -47,7 +48,12 @@ export default function Home() {
 
   return (
     <>
-      {/* Start Hero Section */}
+
+    {/* Whatsapp Icon */}
+        <Whatsapp/>
+    {/* Whatsapp Icon end */}
+
+    {/* Start Hero Section */}
      
       <Hero
         title="It's the growth fizz That does the bizz"

@@ -9,6 +9,7 @@ import Spacing from '../Spacing'
 import IconBox from '../IconBox'
 import VideoModal from '../VideoModal'
 import PostStyle2 from '../Post/PostStyle2.jsx'
+import Whatsapp from '../Whatsapp/index.jsx'
 
 export default function ServicesPage() {
   pageTitle('Service');
@@ -63,6 +64,10 @@ const high_Production = `
   
   return (
     <>
+      {/* Whatsapp Icon */}
+      <Whatsapp/>
+      {/* Whatsapp Icon end */}
+
       <PageHeading 
         title='Services'
         bgSrc='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/contact_hero_bg.jpeg?updatedAt=1701762546109'

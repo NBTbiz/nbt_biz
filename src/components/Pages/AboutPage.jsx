@@ -5,6 +5,7 @@ import Div from '../Div';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import TeamDetails from './TeamDetails';
+import Whatsapp from '../Whatsapp';
 
 export default function AboutPage() {
   pageTitle('About');
@@ -15,6 +16,10 @@ export default function AboutPage() {
   }, []);
   return (
     <>
+      {/* Whatsapp Icon */}
+      <Whatsapp/>
+      {/* Whatsapp Icon end */}
+
       {/* Start Page Heading Section */}
       <PageHeading
         title="About Us"
