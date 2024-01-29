@@ -4,6 +4,7 @@ import SocialWidget from '../Widget/SocialWidget';
 import './header.scss';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
 import Div from '../Div';
+import { Link as ScrollLink } from 'react-scroll';
 
 export default function Header({ variant }) {
   const [isSticky, setIsSticky] = useState(false);
@@ -46,16 +47,88 @@ export default function Header({ variant }) {
                       </NavLink>
                      
                     </li>
+                    <li className="menu-item-has-children">
+                      <NavLink to="service" onClick={() => setMobileToggle(false)} >
+                        Services
+                      </NavLink>
+                      <ul>
+                        <li>
+                          <ScrollLink
+                            to="content-creation-section"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={800}
+                            onClick={() => setMobileToggle(false)}
+                          >
+                            Content Creation
+                          </ScrollLink>
+                        </li>
+                        <li>
+                          <ScrollLink
+                            to="influencer-marketing-section"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={800}
+                            onClick={() => setMobileToggle(false)}
+                          >
+                            Influencer Marketing
+                          </ScrollLink>
+                        </li>
+                        <li>
+                          <ScrollLink
+                            to="social-media-section"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={800}
+                            onClick={() => setMobileToggle(false)}
+                          >
+                            Social Media Marketing
+                          </ScrollLink>
+                        </li>
+                        <li>
+                          <ScrollLink
+                            to="digital-marketing-section"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={800}
+                            onClick={() => setMobileToggle(false)}
+                          >
+                            Digital Marketing
+                          </ScrollLink>
+                        </li>
+                        <li>
+                          <ScrollLink
+                            to="web-development-section"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={800}
+                            onClick={() => setMobileToggle(false)}
+                          >
+                            Web Development
+                          </ScrollLink>
+                        </li>
+                      </ul>
+                    </li>
                     <li>
                       <NavLink to="about" onClick={() => setMobileToggle(false)} >
                         About
                       </NavLink>
                     </li>
-                    <li className="menu-item-has-children">
-                      <NavLink to="service" onClick={() => setMobileToggle(false)} >
-                        Services
+                    {/* <li className="menu-item-has-children">
+                      <NavLink to="blogPage" onClick={() => setMobileToggle(false)} >
+                        Blogs
                       </NavLink>
-                    </li>
+                    </li> */}
+                    {/* <li className="menu-item-has-children">
+                      <NavLink to="serviceDetails" onClick={() => setMobileToggle(false)} >
+                        Service Details
+                      </NavLink>
+                    </li> */}
                   </ul>
                   <span
                     className={
@@ -123,3 +196,4 @@ export default function Header({ variant }) {
     </>
   );
 }
+

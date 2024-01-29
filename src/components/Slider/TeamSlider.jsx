@@ -13,7 +13,7 @@ export default function TeamSlider() {
       memberDesignation: 'CEO',
       memberSocial: {
         Instagram: 'https://www.instagram.com/kevin0o7/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==',
-        linkedin: '/',
+        linkedin: 'https://www.linkedin.com/in/kevin-alexander-7370b1250/',
         // youtube: '/',
         // facebook: '/',
       },

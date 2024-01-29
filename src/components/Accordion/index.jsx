@@ -12,24 +12,32 @@ export default function Accordion() {
   }
   const accordionData = [
     {
-      question: 'Do you design illustration website?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'What Is Digital Marketing?',
+      answer: "Digital Marketing , Also Referred As Online Marketing, Is The Process Of Promoting Brands To Prospective Consumers Through The Internet And Other Digital Media. This Covers Text And Multimedia Messaging As Well As Social Media, Web-Based, Email, And Other Marketing Channels."
     },
     {
-      question: 'Do you provide design source file after finish work?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'What Are Digital Marketing Strategies?',
+      answer: 'A Digital Marketing Strategy Is A Plan For Using Online Channels To Establish An Internet Presence And Achieve Specific Marketing Objectives. These Channels May Consist Of Your Website, Social Media, Paid Advertisements, Organic Search, And Other Web-Based PlatforMS.'
     },
     {
-      question: 'How to provide project details and payments?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'What Are The Benefits Of Integrating A Digital Marketing Strategy Into A Business? ',
+      answer: "It Helps You Comprehend Your Market Share More Clearly. You Run The Risk Of Underestimating The Demand For Your Digital Services If You Don'T Have A Defined Approach. Furthermore, It'S Possible That You Won'T Have A Thorough Understanding Of The Characteristics Of The Internet Market, Such As Rival Profiles, Customer Behavior, And Customer Profiles."
     },
     {
-      question: 'Can you tell me please how to contact for project?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'What Does A Good Digital Marketing Strategy Help The Business To Get? ',
+      answer: 'Overall, A Well-Designed Digital Marketing Strategy May Assist Businesses In Achieving Your Marketing Objectives, Increasing Visibility And Brand Awareness, Generating Leads And Sales, And Ultimately Growing Their Business.'
     },
     {
-      question: 'Do you makes custom logo, icon etc?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'What Are The Benefits Of Digital Marketing For Business? \n Benefits Of Digital Marketing Over Traditional Marketing ',
+      answer: `Better Brand Awareness.
+      Wide Customer Reach.
+      Increased Customer Engagement.
+      Real-Time Customer Feedback.
+      Data-Driven Decision-Making.
+      Greater Market Share.
+      Cost-Effectiveness.
+      High Return on Investment (ROI)
+      `
     },
   ]
   return (

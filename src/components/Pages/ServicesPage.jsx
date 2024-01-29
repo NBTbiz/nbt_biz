@@ -10,6 +10,7 @@ import IconBox from '../IconBox'
 import VideoModal from '../VideoModal'
 import PostStyle2 from '../Post/PostStyle2.jsx'
 import Whatsapp from '../Whatsapp/index.jsx'
+import Accordion from '../Accordion/index.jsx'
 
 export default function ServicesPage() {
   pageTitle('Service');
@@ -47,17 +48,17 @@ const high_Production = `
     {
       thumb:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/digitalMarketing_1.webp?updatedAt=1701767516295',
       title:'Develop Tailor Made Sales Funnel',
-      subtitle:"Looking to boost your sales and maximise revenue? Our team at NBT Biz specialises in creating highly effective sales funnels tailored to   your business. With attention-grabbing landing pages, persuasive lead magnets, and compelling calls-to-action, we guide potential customers through the buying process seamlessly. Through optimised email campaigns and follow-up sequences, we nurture leads and drive conversions. We continuously analyse the performance of your sales funnel, making data-driven adjustments to ensure maximum effectiveness. Don't miss out on potential customers. Let us build a powerful sales funnel for your business. Contact NBT Biz today and start increasing your sales.",
+      subtitle:"Looking To Boost Your Sales And Maximise Revenue? Our Team At Nbt Biz Specialises In Creating Highly Effective Sales Funnels Tailored To   Your Business. With Attention-Grabbing Landing Pages, Persuasive Lead Magnets, And Compelling Calls-To-Action, We Guide Potential Customers Through The Buying Process Seamlessly. Through Optimised Email Campaigns And Follow-Up Sequences, We Nurture Leads And Drive Conversions. We Continuously Analyse The Performance Of Your Sales Funnel, Making Data-Driven Adjustments To Ensure Maximum Effectiveness. Don'T Miss Out On Potential Customers. Let Us Build A Powerful Sales Funnel For Your Business. Contact Nbt Biz Today And Start Increasing Your Sales..",
     },
     {
       thumb:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/digitalMarketing_2.webp?updatedAt=1701767516401',
       title:'Optimised Content',
-      subtitle:"At NBT Biz, we go beyond traditional digital marketing approaches. We specialize in creating highly targeted content tailored to each stage of the customer's journey through your sales funnel. From awareness to consideration and decision-making, our strategic content engages prospects at every step, nurturing them towards conversion. Our team of experts crafts compelling blog posts, informative guides, and persuasive case studies that address customer pain points and showcase your solutions. By combining our SEO expertise with a deep understanding of your audience, we ensure that your content is visible, valuable, and drives results. Take your sales funnel to the next level with NBT Biz.",
+      subtitle:"At Nbt Biz, We Go Beyond Traditional Digital Marketing Approaches. We Specialize In Creating Highly Targeted Content Tailored To Each Stage Of The Customer'S Journey Through Your Sales Funnel. From Awareness To Consideration And Decision-Making, Our Strategic Content Engages Prospects At Every Step, Nurturing Them Towards Conversion. Our Team Of Experts Crafts Compelling Blog Posts, Informative Guides, And Persuasive Case Studies That Address Customer Pain Points And Showcase Your Solutions. By Combining Our Seo Expertise With A Deep Understanding Of Your Audience, We Ensure That Your Content Is Visible, Valuable, And Drives Results. Take Your Sales Funnel To The Next Level With Nbt Biz.",
     },
     {
       thumb:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/digitalMarketing_3.webp?updatedAt=1701767516528',
       title:'Spend Less Reach More!',
-      subtitle:'Our primary focus is to help businesses optimize their marketing efforts and achieve maximum impact while minimizing costs. With our strategic approach, we develop cost-effective campaigns that reach a broader audience. From targeted advertising to optimized content, we ensure your message resonates with your target market. By leveraging our SEO expertise, we drive organic traffic and improve your online visibility. Our team of experts knows how to maximize your marketing budget and deliver measurable results. Experience the power of cost-efficient marketing with NBT Biz.',
+      subtitle:'Our Primary Focus Is To Help Businesses Optimize Their Marketing Efforts And Achieve Maximum Impact While Minimizing Costs. With Our Strategic Approach, We Develop Cost-Effective Campaigns That Reach A Broader Audience. From Targeted Advertising To Optimized Content, We Ensure Your Message Resonates With Your Target Market. By Leveraging Our Seo Expertise, We Drive Organic Traffic And Improve Your Online Visibility. Our Team Of Experts Knows How To Maximize Your Marketing Budget And Deliver Measurable Results. Experience The Power Of Cost-Efficient Marketing With Nbt Biz.',
     }
   ]
 
@@ -81,7 +82,7 @@ const high_Production = `
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title='Services we can help you with' 
+                title='Services We Can Help You With' 
                 subtitle='What Can We Do'
               />
               <Spacing lg='90' md='45'/>
@@ -139,9 +140,10 @@ const high_Production = `
         </Div>
       </Div>
 
-      {/* content creation */}
+      {/* content creation */} 
+      <div id="content-creation-section"></div>
       <Spacing lg='150' md='80'/>
-      <Div className="container">
+      <Div className="container" >
           <VideoModal
           videoSrc="https://www.youtube.com/watch?v=05vNwDBkmMY"
         />
@@ -153,7 +155,7 @@ const high_Production = `
               subtitle='Content Creation' 
             >
               <Spacing lg='40' md='20'/>
-              <p>We at NBT Biz, understand that compelling and engaging content is the backbone of any successful marketing campaign. Our team of creative professionals specialises in crafting content that resonates with your target audience, helping you to effectively communicate your brand message and achieve your marketing goals.</p>
+              <p>We At Nbt Biz, Understand That Compelling And Engaging Content Is The Backbone Of Any Successful Marketing Campaign. Our Team Of Creative Professionals Specialises In Crafting Content That Resonates With Your Target Audience, Helping You To Effectively Communicate Your Brand Message And Achieve Your Marketing Goals.</p>
             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-lg-1">
@@ -202,9 +204,9 @@ const high_Production = `
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              Harness the power of user-generated content (UGC) with our expertly crafted videos.
-               Our team collaborates with you to curate and produce UGC-based videos that authentically showcase your products or services.
-                From concept to post-production, we ensure your UGC videos leave a lasting impression on your audience.
+              Harness The Power Of User-Generated Content (Ugc) With Our Expertly Crafted Videos.
+               Our Team Collaborates With You To Curate And Produce Ugc-Based Videos That Authentically Showcase Your Products Or Services.
+                From Concept To Post-Production, We Ensure Your Ugc Videos Leave A Lasting Impression On Your Audience.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -231,9 +233,9 @@ const high_Production = `
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              Make a memorable impact with our high-production ads. Our experienced videographers, directors,
-               and editors create visually stunning advertisements that captivate viewers. By combining innovative
-                storytelling techniques and cutting-edge technology, we produce ads that drive results across TV and digital platforms.
+              Make A Memorable Impact With Our High-Production Ads. Our Experienced Videographers, Directors,
+               And Editors Create Visually Stunning Advertisements That Captivate Viewers. By Combining Innovative
+                Storytelling Techniques And Cutting-Edge Technology, We Produce Ads That Drive Results Across Tv And Digital Platforms.
                </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -248,9 +250,9 @@ const high_Production = `
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              Showcase your products with visually striking images that leave a lasting impression.
-               Our talented photographers and stylists specialise in capturing the unique features and benefits of your offerings.
-                Whether for e-commerce catalogues or print materials, our high-quality product images elevate your brand and drive conversions.  
+              Showcase Your Products With Visually Striking Images That Leave A Lasting Impression.
+               Our Talented Photographers And Stylists Specialise In Capturing The Unique Features And Benefits Of Your Offerings.
+                Whether For E-Commerce Catalogues Or Print Materials, Our High-Quality Product Images Elevate Your Brand And Drive Conversions.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -268,11 +270,11 @@ const high_Production = `
       {/* End  */}
 
       {/* Influencer Marketing */}
-
+        <div id="influencer-marketing-section"></div>
        <Spacing lg='145' md='80'/>
-      <Div className="container ">
+      <Div className="container">
         <SectionHeading 
-          title='Unlocking the Power of Influence' 
+          title='Unlocking The Power Of Influence' 
           subtitle='Influencer Marketing' 
           variant='cs-style1 text-center'
         />
@@ -281,7 +283,7 @@ const high_Production = `
           <Div className="col-lg-4">
             <IconBox
               icon='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_icon_1.svg?updatedAt=1701856065291'
-              title='Identifying and vetting influencers aligned with your brand values'
+              title='Identifying And Vetting Influencers Aligned With Your Brand Values'
               subtitle=''
             />
             <Spacing lg='30' md='30'/>
@@ -289,7 +291,7 @@ const high_Production = `
           <Div className="col-lg-4">
             <IconBox
               icon='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_icon_2.svg?updatedAt=1701856064955'
-              title='Creating impactful influencer marketing strategies'
+              title='Creating Impactful Influencer Marketing Strategies'
               subtitle=''
             />
             <Spacing lg='30' md='30'/>
@@ -297,7 +299,7 @@ const high_Production = `
           <Div className="col-lg-4">
             <IconBox
               icon='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_icon_3.svg?updatedAt=1701856065101'
-              title='Negotiating and managing influencer partnerships'
+              title='Negotiating And Managing Influencer Partnerships'
               subtitle=''
             />
             <Spacing lg='30' md='30'/>
@@ -305,7 +307,7 @@ const high_Production = `
           <Div className="col-lg-4">
             <IconBox
               icon='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_icon_1.svg?updatedAt=1701856065291'
-              title='Measuring and optimizing campaign performance'
+              title='Measuring And Optimizing Campaign Performance'
               subtitle=''
             />
             <Spacing lg='30' md='30'/>
@@ -327,10 +329,12 @@ const high_Production = `
               subtitle='' 
             >
               <Spacing lg='40' md='20'/>
-              <p>In a world where attention is a scarce resource, influencer marketing has emerged as a game-changer. At NBT Biz,
-                 we specialize in connecting brands with influencers who can authentically engage and resonate with your target audience.
-                  Our meticulous approach ensures that every collaboration is not just a transaction but a strategic partnership that amplifies 
-                  your brand message. Let us help you harness the power of influence and take your brand to new heights.</p>
+              <p>
+              In A World Where Attention Is A Scarce Resource, Influencer Marketing Has Emerged As A Game-Changer. At Nbt Biz,
+                 We Specialize In Connecting Brands With Influencers Who Can Authentically Engage And Resonate With Your Target Audience.
+                  Our Meticulous Approach Ensures That Every Collaboration Is Not Just A Transaction But A Strategic Partnership That Amplifies 
+                  Your Brand Message. Let Us Help You Harness The Power Of Influence And Take Your Brand To New Heights.
+              </p>
             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-lg-1">
@@ -339,17 +343,17 @@ const high_Production = `
             <Spacing lg='50' md='30'/>
             <Div className="row">
               <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Extensive network of influencers across diverse industries</h3>
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Extensive Network Of Influencers Across Diverse Industries</h3>
                 <p className='cs-m0'>----------</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Data-driven strategies for maximum impact</h3>
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Data-Driven Strategies For Maximum Impact</h3>
                 <p className='cs-m0'>----------</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Proven track record of successful influencer collaborations</h3>
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Proven Track Record Of Successful Influencer Collaborations</h3>
                 <p className='cs-m0'>----------</p>
                 <Spacing lg='30' md='30'/>
               </Div>
@@ -361,7 +365,7 @@ const high_Production = `
       {/* end  */}
 
       {/* social media marketing */}
-
+      <div id="social-media-section"></div>
       <Spacing lg='145' md='80'/>
       <Div className="container">
         <SectionHeading 
@@ -384,11 +388,13 @@ const high_Production = `
               subtitle='' 
             >
               <Spacing lg='40' md='20'/>
-              <p>Our experienced team takes care of all aspects of managing your social media pages.
-                 From content creation and scheduling to engaging with your audience and monitoring performance,
-                  we ensure consistent updates that drive organic growth. Collaborating closely with you,
-                   we develop a customised content plan that aligns with your brand voice and resonates with your target audience.
-                    Through in-depth research, we identify trending topics and engaging formats, creating content that boosts engagement, reach, and leads.</p>
+              <p>
+              Our Experienced Team Takes Care Of All Aspects Of Managing Your Social Media Pages.
+                 From Content Creation And Scheduling To Engaging With Your Audience And Monitoring Performance,
+                  We Ensure Consistent Updates That Drive Organic Growth. Collaborating Closely With You,
+                   We Develop A Customised Content Plan That Aligns With Your Brand Voice And Resonates With Your Target Audience.
+                    Through In-Depth Research, We Identify Trending Topics And Engaging Formats, Creating Content That Boosts Engagement, Reach, And Leads.
+              </p>
             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-lg-1">
@@ -398,23 +404,23 @@ const high_Production = `
             <Div className="row">
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Growth-Focused Approach:</h3>
-                <p className='cs-m0'>Designed to drive tangible growth for your business, our data-driven insights and optimization techniques,
-                 will help you achieve measurable results such as increased followers, website traffic, and conversions.</p>
+                <p className='cs-m0'>Designed To Drive Tangible Growth For Your Business, Our Data-Driven Insights And Optimization Techniques,
+                 Will Help You Achieve Measurable Results Such As Increased Followers, Website Traffic, And Conversions.</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Customised Solutions:</h3>
-                <p className='cs-m0'>We deliver tailored strategies based on your specific industry, target audience, and goals, maximizing the effectiveness of your social media presence.</p>
+                <p className='cs-m0'>We Deliver Tailored Strategies Based On Your Specific Industry, Target Audience, And Goals, Maximizing The Effectiveness Of Your Social Media Presence.              </p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Creative and Engaging Content:</h3>
-                <p className='cs-m0'>Our skilled team crafts visually stunning and compelling content that captivates your audience, driving higher engagement and social sharing.</p>
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Creative And Engaging Content:</h3>
+                <p className='cs-m0'>Our Skilled Team Crafts Visually Stunning And Compelling Content That Captivates Your Audience, Driving Higher Engagement And Social Sharing.</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Performance Monitoring and Analytics:</h3>
-                <p className='cs-m0'> Maximize ROI with data-driven insights from continuous monitoring of your social media campaigns. Informed adjustments and optimizations drive results.</p>
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Performance Monitoring And Analytics:</h3>
+                <p className='cs-m0'>Maximize Roi With Data-Driven Insights From Continuous Monitoring Of Your Social Media Campaigns. Informed Adjustments And Optimizations Drive Results</p>
                 <Spacing lg='30' md='30'/>
               </Div>
             </Div>
@@ -425,12 +431,12 @@ const high_Production = `
       {/* end */}
 
       {/* Digital marketing */}
-      
+      <div  id="digital-marketing-section"></div>
       <Spacing lg='145' md='80'/>
       <Div className="container">
         <SectionHeading 
           title='Revolutionizing Digital Marketing' 
-          subtitle='Digital marketing' 
+          subtitle='Digital Marketing' 
           variant='cs-style1 text-center'
         />
       </Div>
@@ -456,6 +462,7 @@ const high_Production = `
       {/* end */}
 
       {/* web development*/}
+      <div id="web-development-section"></div>
       <Spacing lg='145' md='80'/>
       <Div className="container">
         <SectionHeading 
@@ -468,7 +475,7 @@ const high_Production = `
           <Div className="col-lg-4">
             <IconBox
               icon='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_icon_1.svg?updatedAt=1701856065291'
-              title='Custom website design and development'
+              title='Custom Website Design And Development'
               subtitle=''
             />
             <Spacing lg='30' md='30'/>
@@ -476,7 +483,7 @@ const high_Production = `
           <Div className="col-lg-4">
             <IconBox
               icon='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_icon_2.svg?updatedAt=1701856064955'
-              title='Responsive and mobile-friendly designs'
+              title='Responsive And Mobile-Friendly Designs'
               subtitle=''
             />
             <Spacing lg='30' md='30'/>
@@ -484,7 +491,7 @@ const high_Production = `
           <Div className="col-lg-4">
             <IconBox
               icon='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_icon_3.svg?updatedAt=1701856065101'
-              title='User experience (UX) and user interface (UI) optimization'
+              title='User Experience (UX) And User Interface (UI) Optimization'
               subtitle=''
             />
             <Spacing lg='30' md='30'/>
@@ -492,7 +499,7 @@ const high_Production = `
           <Div className="col-lg-4">
             <IconBox
               icon='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_icon_1.svg?updatedAt=1701856065291'
-              title='E-commerce website design'
+              title='E-Commerce Website Design'
               subtitle=''
             />
             <Spacing lg='30' md='30'/>
@@ -508,14 +515,16 @@ const high_Production = `
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading 
-              title='Empowering Your Business with Technology' 
+              title='Empowering Your Business With Technology' 
               subtitle='' 
             >
               <Spacing lg='40' md='20'/>
-              <p>In the digital realm, your website is often the first interaction a potential customer has with your brand.
-                 At NBT Biz, we understand the importance of making that first impression count. Our Web Design service is dedicated to creating visually stunning,
-                  user-friendly websites that not only reflect your brand identity but also provide an exceptional user experience.
-                   Whether you need a new website or want to revamp your existing one, our expert designers are here to turn your vision into a captivating digital reality.</p>
+              <p>
+              In The Digital Realm, Your Website Is Often The First Interaction A Potential Customer Has With Your Brand.
+                 At Nbt Biz, We Understand The Importance Of Making That First Impression Count. Our Web Design Service Is Dedicated To Creating Visually Stunning,
+                  User-Friendly Websites That Not Only Reflect Your Brand Identity But Also Provide An Exceptional User Experience.
+                   Whether You Need A New Website Or Want To Revamp Your Existing One, Our Expert Designers Are Here To Turn Your Vision Into A Captivating Digital Reality.
+              </p>
             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-lg-1">
@@ -524,17 +533,17 @@ const high_Production = `
             <Spacing lg='50' md='30'/>
             <Div className="row">
               <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Creative design team with a focus on functionality</h3>
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Creative Design Team With A Focus On Functionality</h3>
                 <p className='cs-m0'>----------</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Responsive designs for seamless user experience across devices.</h3>
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Responsive Designs For Seamless User Experience Across Devices.</h3>
                 <p className='cs-m0'>----------</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Expertise in crafting websites for various industries</h3>
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Expertise In Crafting Websites For Various Industries</h3>
                 <p className='cs-m0'>----------</p>
                 <Spacing lg='30' md='30'/>
               </Div>
@@ -543,11 +552,54 @@ const high_Production = `
           </Div>
           </Div>
 
-      {/* end */}
+          {/* */}
 
+        <Spacing lg='145' md='80'/>
+        <Div className="container">
+        <SectionHeading 
+          title="FAQ's" 
+          subtitle='Some awesome words from awesome people' 
+          variant='cs-style1 text-center'
+        />
+        <Spacing lg='90' md='45'/>
+        <Div className="row justify-content-center">
+        <Accordion />
+        </Div>
+      </Div>
+      <Spacing lg='145' md='80'/>
+
+      {/*  */}
+
+      {/* end */}
+                
+
+      {/* <Spacing lg='145' md='80'/>
+      <Div className="container cs-shape_wrap_4">
+        <Div className="cs-shape_4"></Div>
+        <Div className="cs-shape_4"></Div>
+        <Div className="container">
+          <Div className="row">
+            <Div className="col-xl-5 col-lg-6">
+              <SectionHeading
+                title='Some pre questions and answers' 
+                subtitle='FAQ’s'
+                />
+                <Spacing lg='90' md='45'/>
+                </Div>
+               <Div className="col-lg-6 offset-xl-1">
+              <Accordion/>
+            </Div>
+          </Div>
+        </Div>
+      </Div>
+      <Spacing lg='150' md='80'/> */}
+      
+      {/*  */}
+
+      
       <Div className="container">
         <Cta 
-         title="Let’s discuss and make <br />something <i>cool</i> together"
+         title="Let’s Discuss And Make <br />Something <i>Cool</i> Together"
           btnText='Apply For Meeting' 
           btnLink='/contact' 
           bgSrc='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/cta_bg.jpeg?updatedAt=1701762150722'

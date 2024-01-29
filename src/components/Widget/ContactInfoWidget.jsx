@@ -12,7 +12,7 @@ export default function ContactInfoWidget({withIcon, title}) {
         </li>
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>:''}
-          ammu.nair@nbtbiz.com    
+          abby@nbtbiz.com   
         </li>
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>:''}
@@ -23,3 +23,4 @@ export default function ContactInfoWidget({withIcon, title}) {
     </>
   )
 }
+  

@@ -9,7 +9,7 @@ const Div = lazy(() => import('../Div'));
 const SectionHeading = lazy(() => import('../SectionHeading'));
 const Spacing = lazy(() => import('../Spacing'));
 const Cta = lazy(() => import('../Cta'));
-const LogoList = lazy(() => import('../LogoList'));
+// const LogoList = lazy(() => import('../LogoList'));
 const MovingText = lazy(() => import('../MovingText'));
 const PortfolioSlider2 = lazy(() => import('../Slider/PortfolioSlider'));
 const PostSlider = lazy(() => import('../Slider/PostSlider'));
@@ -56,9 +56,9 @@ export default function Home() {
     {/* Start Hero Section */}
      
       <Hero
-        title="It's the growth fizz That does the bizz"
-        subtitle="At NBT Business Solutions, we stand out as the premier digital marketing agency in Kerala, committed to being your strategic ally for success. More than just a digital marketing company, our team of marketers, creatives, researchers, and tech enthusiasts collaborates to tackle business challenges. 
-        Our mission is simple: guide brands to uncover their purpose and establish a lasting path to success. Choose the best – choose NBT Business Solutions, your top-tier digital marketing agency in Kerala."
+        title="It's The Growth Fizz That Does The Bizz"
+        subtitle="At Nbt Business Solutions, We Stand Out As The Premier Digital Marketing Agency In Kerala. More Than Just A Digital Marketing Company, Our Team Of Marketers, Creatives, Researchers, And Tech Enthusiasts Collaborates To Tackle Business Challenges. 
+        Our Mission Is Simple: Guide Brands To Uncover Their Purpose And Establish A Lasting Path To Success. Nbt Business Solutions, Your Top-Tier Digital Marketing Agency In Kerala."
         btnText="Get a Quote"
         btnLink="/contact"
         scrollDownId="#service"
@@ -73,10 +73,23 @@ export default function Home() {
       <div className="container">
         <FunFact
           variant="cs-type1"
-          title="Why brands choose us:"
+          title="Why Brands Choose us:"
         />
       </div>
       {/* End FunFact Section */}
+
+    {/* Start Video Block Section */}
+    <Spacing lg="130" md="70" />
+      <Div className="container">
+        <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
+        Our Agile Process Is Ability To Adapt And Respond To Change. Agile Organizations View Change As An Opportunity, Not A Threat.
+        </h2>
+        <Spacing lg="70" md="70" />
+        <VideoModal
+          videoSrc="https://www.youtube.com/watch?v=OLFMgj4VC7g"
+        />
+      </Div>
+      {/* End Video Block Section */} 
 
       {/* Start Service Section */}
       <Spacing lg="150" md="80" />
@@ -85,7 +98,7 @@ export default function Home() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="Services we can help you with"
+                title="Services We Can Help You With"
                 subtitle="What Can We Do"
                 btnText="See All Services"
                 btnLink="/service"
@@ -145,7 +158,7 @@ export default function Home() {
       <Div>
         <Div className="container">
           <SectionHeading
-            title="Portfolio to explore"
+            title="Portfolio To Explore"
             subtitle="Latest Projects"
             variant="cs-style1 text-center"
           />
@@ -155,30 +168,18 @@ export default function Home() {
       </Div>
       {/* End Portfolio Section */}
 
-      {/* Start Video Block Section */}
-      <Spacing lg="130" md="70" />
-      <Div className="container">
-        <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Our agile process is ability to adapt and respond to change. Agile
-          organizations view change as an opportunity, not a threat.
-        </h2>
-        <Spacing lg="70" md="70" />
-        <VideoModal
-          videoSrc="https://www.youtube.com/watch?v=OLFMgj4VC7g"
-        />
-      </Div>
-      {/* End Video Block Section */}
+      
 
       {/* Start Team Section */}
       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Awesome team <br/>members"
+          title="Awesome Team <br/>Members"
           subtitle="Our Team"
           variant="cs-style1"
         />
         <Spacing lg="85" md="45" />
-        <TeamSlider />
+        <TeamSlider />  
       </Div>
       <Spacing lg="150" md="80" />
    
@@ -208,23 +209,32 @@ export default function Home() {
       </Div>
       {/* End Blog Section */}
 
-      {/* Start MovingText Section */}
+      {/* Start MovingLogo  Section */}
+
       <Spacing lg="125" md="70" />
-      <MovingText text="CLIENTS WE WORKED WITH  " />
+      <Div className="container">
+          <SectionHeading
+            title="Clients We Worked With   "
+            subtitle="Our Clients"
+            variant="cs-style1 text-center"
+          />
+          <Spacing lg="90" md="45" />
+        </Div>
+      <MovingText />
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
 
       {/* Start LogoList Section */}
-      <Div className="container">
+      {/* <Div className="container">
         <LogoList />
       </Div>
-      <Spacing lg="150" md="80" />
+      <Spacing lg="150" md="80" /> */}
       {/* End LogoList Section */}
 
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s discuss and make <br />something <i>cool</i> together"
+          title="Let’s Discuss And Make <br />Something <i>Cool</i> Together"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/cta_bg.jpeg?updatedAt=1701762150722"

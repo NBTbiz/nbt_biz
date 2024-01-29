@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function MenuWidget({menuItems, menuHeading, variant}) {
   return (
@@ -7,7 +8,7 @@ export default function MenuWidget({menuItems, menuHeading, variant}) {
       <ul className={`${variant ? `cs-menu_widget ${variant}` : 'cs-menu_widget cs-style1'} cs-mp0`}>
         {menuItems.map((item, index) => (
           <li key={index}>
-            {item.title}
+            {item.href ? <Link to={item.href}>{item.title}</Link> : item.title}
           </li>
         ))}
       </ul>

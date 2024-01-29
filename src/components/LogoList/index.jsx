@@ -4,24 +4,53 @@ import './logolist.scss'
 
 export default function LogoList() {
   const partnerLogos_1 = [
+
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_1.svg?updatedAt=1701759015338', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_24.svg?updatedAt=1705927709729', 
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_2.svg?updatedAt=1701759015049', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_7.svg?updatedAt=1706004516718', 
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_3.svg?updatedAt=1701862225563', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_3.svg?updatedAt=1706004880404', 
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_4.svg?updatedAt=1701759015474', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_9.svg?updatedAt=1705926612641', 
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_5.svg?updatedAt=1701759014447', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_16.svg?updatedAt=1705996052708', 
+      alt:'client'
+    },
+    {
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_20.svg?updatedAt=1705995710099', 
+      alt:'client'
+    },
+  ]
+
+    const partnerLogos_2 = [
+    
+    {
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_13.svg?updatedAt=1705928478111', 
+      alt:'client'
+    },
+    {
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_1.svg?updatedAt=1705927955131', 
+      alt:'client'
+    },
+    {
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_2.svg?updatedAt=1706003378411', 
+      alt:'client'
+    },
+    {
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_4.svg?updatedAt=1706003820901', 
+      alt:'client'
+    },
+    {
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_5.svg?updatedAt=1706003565627', 
       alt:'client'
     },
     {
@@ -30,71 +59,42 @@ export default function LogoList() {
     },
   ]
 
-    const partnerLogos_2 = [
-    {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_7.svg?updatedAt=1701861972265', 
-      alt:'client'
-    },
-    {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_8.svg?updatedAt=1701759017891', 
-      alt:'client'
-    },
-    {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_9.svg?updatedAt=1701759017968', 
-      alt:'client'
-    },
-    {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_10.svg?updatedAt=1701759018089', 
-      alt:'client'
-    },
-    {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_11.svg?updatedAt=1701759017987', 
-      alt:'client'
-    },
-    {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_12.svg?updatedAt=1701759018094', 
-      alt:'client'
-    },
-  ]
-
   const partnerLogos_3 = [
+
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_13.svg?updatedAt=1701948797640', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_14.svg?updatedAt=1705996275632', 
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_14.svg?updatedAt=1701759019990', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_15.svg?updatedAt=1705995359014', 
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_15.svg?updatedAt=1701759020740', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_17.svg?updatedAt=1706004731653  ', 
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_16.svg?updatedAt=1701759021730', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_18.svg?updatedAt=1705994289076', 
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_17.svg?updatedAt=1701759021542', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_11.svg?updatedAt=1705994774963', 
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_18.svg?updatedAt=1701759022783', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_12.svg?updatedAt=1706001700364', 
       alt:'client'
     },
   ]
 
   const partnerLogos_4 = [
+
     {
       src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_19.svg?updatedAt=1701951864297', 
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_20.svg?updatedAt=1701759023431', 
-      alt:'client'
-    },
-    {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_21.svg?updatedAt=1701759023164', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_21.svg?updatedAt=1706002493972', 
       alt:'client'
     },
     {
@@ -102,7 +102,15 @@ export default function LogoList() {
       alt:'client'
     },
     {
-      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_23.svg?updatedAt=1701759023337', 
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_23.svg?updatedAt=1706002666580', 
+      alt:'client'
+    },
+    {
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_8.svg?updatedAt=1705995076234', 
+      alt:'client'
+    },
+    {
+      src: 'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/client_10.svg?updatedAt=1706002319883', 
       alt:'client'
     },
   ]
@@ -110,16 +118,16 @@ export default function LogoList() {
     <>
     <Div className="cs-partner_logo_wrap">
       {partnerLogos_1.map((partnerLogo, index)=>
-         <div className="cs-partner_logo" key={index}>
+        <div className="cs-partner_logo" key={index}>
           <img src={partnerLogo.src} alt={partnerLogo.alt} loading="lazy" />
         </div>)}    
     </Div>
-    <Div className="cs-partner_logo_wrap">
-      {partnerLogos_2.map((partnerLogo, index)=>
-        <div className="cs-partner_logo" key={index}>
-          <img src={partnerLogo.src} alt={partnerLogo.alt} loading="lazy" />
-        </div>)}
-    </Div>
+      <Div className="cs-partner_logo_wrap">
+        {partnerLogos_2.map((partnerLogo, index)=>
+          <div className="cs-partner_logo" key={index}>
+            <img src={partnerLogo.src} alt={partnerLogo.alt} loading="lazy" />
+          </div>)}
+      </Div>
     <Div className="cs-partner_logo_wrap">
       {partnerLogos_3.map((partnerLogo, index)=>
         <div className="cs-partner_logo" key={index}>
@@ -133,6 +141,5 @@ export default function LogoList() {
         </div>)}
     </Div>
     </>
-    
   )
 }
