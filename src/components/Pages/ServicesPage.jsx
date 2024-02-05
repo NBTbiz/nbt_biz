@@ -62,6 +62,147 @@ const high_Production = `
     }
   ]
 
+  // ContentCreation  InfluencerMarketing SocialMediaMarketing DigitalMarketing ITSolutions
+
+  const ContentCreation = [
+    {
+      question: 'What Do You Mean By Content Creation?',
+      answer: "Content Creation Involves A Variety Of Tasks Such As Website Maintenance And Updates, Blogging, Article Writing, Photography, Videography, Online Commentary, Social Network Accounts, And Digital Media Editing And Promotion."
+    },
+    {
+      question: 'What Is Content Creation In Social Media?',
+      answer: 'A Social Media Content Creator Is Someone Who Generates And Shares Material On Social Media Platforms With The Goal Of Educating Or Entertaining Their Audience. The Internet Provides Various Options For Content Development. You Can Write Blogs, Distribute Newsletters, And Develop Online Copy—The List Is Endless.'
+    },
+    {
+      question: 'Why Social Media Content Is Important For Business?',
+      answer: "Social Media Can Help You Connect With Your Customers And See What Others Are Saying About Your Company. You Can Also Utilize Social Media For Marketing, Giveaways, And Mobile Applications. Social Networking May Help Your Business Acquire Clients, Get Feedback, And Establish Customer Loyalty."
+    },
+    {
+      question: 'How Important Is Content In Business?',
+      answer: "Content Remains Dominant In Terms Of Raising Awareness And Producing Quality Leads, Both Of Which Contribute To Healthy Sales Growth. Strategic And Well-Executed Content Has The Capacity To Draw Your Audience To Your Company'S Website, Where They Will Eventually Convert Into Leads And Finally Sales."
+    },
+    {
+      question: 'Benefits Of Content Marketing',
+      answer: `1 : Increases Conversions,
+      2 : Strengthens Customer Relationships,
+      3 : Grows Brand Awareness,
+      4 : Connects with Ad-Wary Audiences,
+      5 :  Builds Industry Authority,
+      6 : Increases Website Traffic,
+      7 : Teaches You About Your Audience,
+      8: Eases Pressure on Customer Service Teams,
+      `
+    },
+  ]
+
+  const InfluencerMarketing = [
+    {
+      question: 'What Is Influencer Marketing?',
+      answer: "Influencer Marketing Is A Collaborative Effort Between Popular Social Media Users And Brands To Promote Their Products Or Services. These Collaborations Have Been Taking Place Informally Since The Inception Of Social Media."
+    },
+    {
+      question: 'Why Is Influencer Marketing Important?',
+      answer: 'Influencers, With Their Huge Reach, Have The Ability To Raise Brand Exposure And Awareness. When An Influencer Promotes Or Advises Your Brand, Their Followers Are More Likely To Pay Attention. Furthermore, When Such Suggestions Come From A Trusted Influencer, They Are Frequently Regarded As Authentic.'
+    },
+    {
+      question: 'What Is The Power Of Influencer Marketing?',
+      answer: "The Value Of Influencer Marketing Resides In Its Ability To Connect With Individuals. People Trust Influencers, And When An Influencer Supports A Product Or Brand, It Lends Credibility And Authenticity."
+    },
+    {
+      question: 'What Are The Benefits Of Influencer Marketing?',
+      answer: "Influencer Marketing Allows Firms To Get Their Target Audience'S Attention. It Increases Social Proof And Boosts Purchases. When Your Audience Sees Your Products Being Shared By People They Know And Trust, They Are More Likely To Purchase."
+    },
+    {
+      question: 'Why Is Influencer Marketing Important For Businesses?',
+      answer: 'Influencer Marketing Boosts Brand Awareness, Resulting In Greater Traffic To Your Online Presence. Furthermore, Sharing Your Material Allows You To Get A Large Number Of High-Quality And Trustworthy Connections. Collaborating With Influencers Can Also Enhance The Quality Of Your Material.'
+    },
+  ]
+
+  const SocialMediaMarketing = [
+    {
+      question: 'What is social media marketing?',
+      answer: "Social media marketing is the process of developing content for social media platforms to promote your products and/or services, build a community with your target audience, and generate traffic to your website. Social media marketing is continually growing, with new features and platforms being introduced every day."
+    },
+    {
+      question: 'What is best social media marketing Platforms?',
+      answer: 'The top social media marketing platforms for businesses include Facebook, YouTube, Instagram, LinkedIn, Twitter, TikTok, and Snapchat'
+    },
+    {
+      question: 'How social media impacts marketing?',
+      answer: "Social media allows you to reach out to a larger audience. Almost 90% of marketers claim their social media activities have enhanced their business's exposure, and 75% say they have increased visitors."
+    },
+    {
+      question: 'How social media marketing can help your business?',
+      answer: 'Social media can help you connect with your customers and see what others are saying about your company. You can also utilize social media for marketing, giveaways, and mobile applications. Social networking may help your business acquire clients, get feedback, and establish customer loyalty.'
+    },
+    {
+      question: 'Why social media marketing is important for your business?',
+      answer: `1 : Brand awareness,
+      2 : Engaging customers,
+      3 : Build relationships,
+      4 : Social media marketing,
+      5 : Target audiences,
+      6 : Use analytics,
+      7 : Boost website traffic,
+      8 : Brand loyalty,
+      9 : Generate leads,`
+    },
+  ]
+  
+  const DigitalMarketing = [
+    {
+      question: 'What Is Digital Marketing?',
+      answer: "Digital Marketing , Also Referred As Online Marketing, Is The Process Of Promoting Brands To Prospective Consumers Through The Internet And Other Digital Media. This Covers Text And Multimedia Messaging As Well As Social Media, Web-Based, Email, And Other Marketing Channels."
+    },
+    {
+      question: 'What Are Digital Marketing Strategies?',
+      answer: 'A Digital Marketing Strategy Is A Plan For Using Online Channels To Establish An Internet Presence And Achieve Specific Marketing Objectives. These Channels May Consist Of Your Website, Social Media, Paid Advertisements, Organic Search, And Other Web-Based PlatforMS.'
+    },
+    {
+      question: 'What Are The Benefits Of Integrating A Digital Marketing Strategy Into A Business? ',
+      answer: "It Helps You Comprehend Your Market Share More Clearly. You Run The Risk Of Underestimating The Demand For Your Digital Services If You Don'T Have A Defined Approach. Furthermore, It'S Possible That You Won'T Have A Thorough Understanding Of The Characteristics Of The Internet Market, Such As Rival Profiles, Customer Behavior, And Customer Profiles."
+    },
+    {
+      question: 'What Does A Good Digital Marketing Strategy Help The Business To Get? ',
+      answer: 'Overall, A Well-Designed Digital Marketing Strategy May Assist Businesses In Achieving Your Marketing Objectives, Increasing Visibility And Brand Awareness, Generating Leads And Sales, And Ultimately Growing Their Business.'
+    },
+    {
+      question: 'What Are The Benefits Of Digital Marketing For Business? \n Benefits Of Digital Marketing Over Traditional Marketing ',
+      answer: `1 : Better Brand Awareness,
+      2 : Wide Customer Reach,
+      3 : Increased Customer Engagement,
+      4 : Real-Time Customer Feedback,
+      5 : Data-Driven Decision-Making,
+      6 : Greater Market Share,
+      7 : Cost-Effectiveness,
+      8 : High Return on Investment (ROI),
+      `
+    },
+  ]
+
+  const ITSolutions = [
+    {
+      question: 'What is an IT solution?',
+      answer: "IT solutions, also known as IT business solutions, are a collection of software, apps, programs, and IT services that firms can use to assist certain business processes or address specific difficulties."
+    },
+    {
+      question: 'What is the IT solution for business? ',
+      answer: 'At their most fundamental, IT solutions assist businesses in making effective and efficient use of their data. This includes developing, managing, accessing, collecting, analyzing, optimizing, reporting, and presenting relevant data on customers, employees, services, and processes.'
+    },
+    {
+      question: 'What is Web development ?',
+      answer: "Web development is the process of creating a website for the Internet (World Wide Web) or a private network (intranet). Web development can include anything from a basic static page of plain text to complicated web apps, electronic companies, and social network services."
+    },
+    {
+      question: 'How website development helps your business?',
+      answer: "Web development is essential for distinguishing your company from competition since it allows you to stand out from the pack. If you have a website that is well-designed, easy to navigate, and visually appealing, you will attract more customers than similar firms that don't have these elements."
+    },
+    {
+      question: 'How does having a website benefit a business?',
+      answer: `Establishing trust, enhancing your brand, improving client interactions, and informing a larger audience about your company's capabilities are all significant benefits. Another typical problem is that you don't have enough content to offer for frequent updates, or you don't have time to blog.`
+    },
+  ]
+
   
   return (
     <>
@@ -267,6 +408,25 @@ const high_Production = `
         </Div>
       </Div>
       <Spacing lg="75" md="55" />
+      
+          {/* */}
+
+          <Spacing lg='145' md='80'/>
+        <Div className="container">
+        <SectionHeading 
+          title="FAQ's" 
+          subtitle='Some awesome words from awesome people' 
+          variant='cs-style1 text-center'
+        />
+        <Spacing lg='90' md='45'/>
+        <Div className="row justify-content-center">
+        <Accordion  accordionData={ContentCreation}/>
+        </Div>
+      </Div>
+      <Spacing lg='145' md='80'/>
+
+      {/*  */}
+      
       {/* End  */}
 
       {/* Influencer Marketing */}
@@ -361,6 +521,24 @@ const high_Production = `
           </Div>
           </Div>
           </Div>
+          
+          {/* */}
+
+        <Spacing lg='145' md='80'/>
+        <Div className="container">
+        <SectionHeading 
+          title="FAQ's" 
+          subtitle='Some awesome words from awesome people' 
+          variant='cs-style1 text-center'
+        />
+        <Spacing lg='90' md='45'/>
+        <Div className="row justify-content-center">
+        <Accordion  accordionData={InfluencerMarketing}/>
+        </Div>
+      </Div>
+      <Spacing lg='145' md='80'/>
+
+      {/*  */}
 
       {/* end  */}
 
@@ -427,6 +605,24 @@ const high_Production = `
           </Div>
           </Div>
           </Div>
+          
+          {/* */}
+
+        <Spacing lg='145' md='80'/>
+        <Div className="container">
+        <SectionHeading 
+          title="FAQ's" 
+          subtitle='Some awesome words from awesome people' 
+          variant='cs-style1 text-center'
+        />
+        <Spacing lg='90' md='45'/>
+        <Div className="row justify-content-center">
+        <Accordion  accordionData={SocialMediaMarketing}/>
+        </Div>
+      </Div>
+      <Spacing lg='145' md='80'/>
+
+      {/*  */}
 
       {/* end */}
 
@@ -459,6 +655,25 @@ const high_Production = `
           </Div>
         </Div>
       </Div>
+      
+          {/* */}
+
+          <Spacing lg='145' md='80'/>
+        <Div className="container">
+        <SectionHeading 
+          title="FAQ's" 
+          subtitle='Some awesome words from awesome people' 
+          variant='cs-style1 text-center'
+        />
+        <Spacing lg='90' md='45'/>
+        <Div className="row justify-content-center">
+        <Accordion  accordionData={DigitalMarketing}/>
+        </Div>
+      </Div>
+      <Spacing lg='145' md='80'/>
+
+      {/*  */}
+
       {/* end */}
 
       {/* web development*/}
@@ -563,7 +778,7 @@ const high_Production = `
         />
         <Spacing lg='90' md='45'/>
         <Div className="row justify-content-center">
-        <Accordion />
+        <Accordion  accordionData={ITSolutions}/>
         </Div>
       </Div>
       <Spacing lg='145' md='80'/>
