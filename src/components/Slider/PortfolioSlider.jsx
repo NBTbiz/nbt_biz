@@ -7,22 +7,22 @@ export default function PortfolioSlider() {
   const portfolioData = [
     {
       title:'Bloom in Green',
-      subtitle:'See Details',
+      // subtitle:'See Details',
       src:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/portfolio2.jpeg?updatedAt=1701759890162'
     },
     {
       title:'Sree Hair & Makeup',
-      subtitle:'See Details',
+      // subtitle:'See Details',
       src:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/portfolio3.jpeg?updatedAt=1701759890208'
     },
     {
       title:'YESTE',
-      subtitle:'See Details',
+      // subtitle:'See Details',
       src:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/portfolio1.jpeg?updatedAt=1701759890158'
     },
     {
       title:"Cafe Since'97",
-      subtitle:'See Details',
+      // subtitle:'See Details',
       src:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/portfolio4.jpeg?updatedAt=1701759890215'
     },
   ]
