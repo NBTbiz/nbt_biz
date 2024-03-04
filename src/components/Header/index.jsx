@@ -51,7 +51,7 @@ export default function Header({ variant }) {
                       <NavLink to="service" onClick={() => setMobileToggle(false)} >
                         Services
                       </NavLink>
-                      <ul>
+                      {/* <ul>
                         <li>
                           <ScrollLink
                             to="content-creation-section"
@@ -112,7 +112,7 @@ export default function Header({ variant }) {
                             Web Development
                           </ScrollLink>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li>
                       <NavLink to="about" onClick={() => setMobileToggle(false)} >

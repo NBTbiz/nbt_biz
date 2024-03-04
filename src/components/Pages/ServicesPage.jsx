@@ -203,6 +203,25 @@ const high_Production = `
     },
   ]
 
+  const scrollToInfluencerMarketing = () => {
+    document.getElementById('influencer-marketing-section').scrollIntoView({ behavior: 'smooth' });
+  };
+  
+  const scrollToWebDevelopment = () => {
+    document.getElementById('web-development-section').scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToContentCreation = () => {
+    document.getElementById('content-creation-section').scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToDigitalMarketing = () => {
+    document.getElementById('digital-marketing-section').scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToSocialMediaMarketing = () => {
+    document.getElementById('social-media-section').scrollIntoView({ behavior: 'smooth' });
+  };
   
   return (
     <>
@@ -232,47 +251,61 @@ const high_Production = `
               <Div className='row'>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6 '>
+                <Div onClick={scrollToInfluencerMarketing} className="scroll-link">
                   <Card
                     title='Influencer Marketing'
                     src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_2.webp?updatedAt=1705301481319"
                     alt='Service'
                   />
+                 </Div>
                   <Spacing lg='0' md='30'/>
                 </Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
+
+                <Div onClick={scrollToWebDevelopment} className="scroll-link">
                   <Card
                     title='Web Development'
                     src='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_5.webp?updatedAt=1705301481289'
                     alt='Service'
                   />
+                  </Div>
                   <Spacing lg='0' md='30'/>
                 </Div>
                 <Div className='col-lg-3 col-sm-6'>
+
+                <Div onClick={scrollToContentCreation} className="scroll-link">
                   <Card
                     title='Content Creation'
                     src='https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_1.webp?updatedAt=1705301481137'
                     alt='Service'
                   />
+                  </Div>
                   <Spacing lg='0' md='30'/>
                 </Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
+
+                <Div onClick={scrollToDigitalMarketing} className="scroll-link">
                   <Card
                     title='Digital Marketing'
                     src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_4.webp?updatedAt=1705301481259"
                     alt='Service'
                   />
+                  </Div>
                   <Spacing lg='0' md='30'/>
                 </Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
+
+                <Div onClick={scrollToSocialMediaMarketing} className="scroll-link">
                   <Card
                     title='Social Media Marketing'
                     src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/service_3.webp?updatedAt=1705301481185"
                     alt='Service'
                   />
+                  </Div>
                   <Spacing lg='0' md='30'/>
                 </Div>
               </Div>
@@ -282,8 +315,8 @@ const high_Production = `
       </Div>
 
       {/* content creation */} 
-      <div id="content-creation-section"></div>
       <Spacing lg='150' md='80'/>
+      <div id="content-creation-section"></div>
       <Div className="container" >
           <VideoModal
           videoSrc="https://www.youtube.com/watch?v=05vNwDBkmMY"
