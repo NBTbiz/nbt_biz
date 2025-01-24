@@ -14,7 +14,7 @@ const ServicesPage = lazy(() => import('./components/Pages/ServicesPage'));
 
 const LoadingAnimation = () => (
   <div className="loading-animation">
-    <span className="nbt-text">NBT</span>
+    <span className="nbt-text">Cntrl M</span>
   </div>
 );
 

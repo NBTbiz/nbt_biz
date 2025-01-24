@@ -46,19 +46,19 @@ const high_Production = `
 
   const postData = [
     {
-      thumb:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/digitalMarketing_1.webp?updatedAt=1701767516295',
+      // thumb:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/digitalMarketing_1.webp?updatedAt=1701767516295',
       title:'Develop Tailor Made Sales Funnel',
-      subtitle:"Looking To Boost Your Sales And Maximise Revenue? Our Team At Nbt Biz Specialises In Creating Highly Effective Sales Funnels Tailored To   Your Business. With Attention-Grabbing Landing Pages, Persuasive Lead Magnets, And Compelling Calls-To-Action, We Guide Potential Customers Through The Buying Process Seamlessly. Through Optimised Email Campaigns And Follow-Up Sequences, We Nurture Leads And Drive Conversions. We Continuously Analyse The Performance Of Your Sales Funnel, Making Data-Driven Adjustments To Ensure Maximum Effectiveness. Don'T Miss Out On Potential Customers. Let Us Build A Powerful Sales Funnel For Your Business. Contact Nbt Biz Today And Start Increasing Your Sales..",
+      subtitle:"Looking to boost your sales and maximize revenue? Our team at Cntrl M specializes in creating highly effective sales funnels tailored to your business. With attention-grabbing landing pages, persuasive lead magnets, and compelling calls-to-action, we guide potential customers through the buying process seamlessly. Through optimized email campaigns and follow-up sequences, we nurture leads and drive conversions. We continuously analyze the performance of your sales funnel, making data-driven adjustments to ensure maximum effectiveness. Don’t miss out on potential customers. Let us build a powerful sales funnel for your business. Contact Cntrl M today and start increasing your sales.",
     },
     {
-      thumb:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/digitalMarketing_2.webp?updatedAt=1701767516401',
+      // thumb:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/digitalMarketing_2.webp?updatedAt=1701767516401',
       title:'Optimised Content',
-      subtitle:"At Nbt Biz, We Go Beyond Traditional Digital Marketing Approaches. We Specialize In Creating Highly Targeted Content Tailored To Each Stage Of The Customer'S Journey Through Your Sales Funnel. From Awareness To Consideration And Decision-Making, Our Strategic Content Engages Prospects At Every Step, Nurturing Them Towards Conversion. Our Team Of Experts Crafts Compelling Blog Posts, Informative Guides, And Persuasive Case Studies That Address Customer Pain Points And Showcase Your Solutions. By Combining Our Seo Expertise With A Deep Understanding Of Your Audience, We Ensure That Your Content Is Visible, Valuable, And Drives Results. Take Your Sales Funnel To The Next Level With Nbt Biz.",
+      subtitle:"At Cntrl M, we go beyond traditional digital marketing approaches. We specialize in creating highly targeted content tailored to each stage of the customer’s journey through your sales funnel. From awareness to consideration and decision-making, our strategic content engages prospects at every step, nurturing them toward conversion. Our team of experts crafts compelling blog posts, informative guides, and persuasive case studies that address customer pain points and showcase your solutions. By combining our SEO expertise with a deep understanding of your audience, we ensure that your content is visible, valuable, and drives results. Take your sales funnel to the next level with Cntrl M.",
     },
     {
-      thumb:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/digitalMarketing_3.webp?updatedAt=1701767516528',
+      // thumb:'https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/digitalMarketing_3.webp?updatedAt=1701767516528',
       title:'Spend Less Reach More!',
-      subtitle:'Our Primary Focus Is To Help Businesses Optimize Their Marketing Efforts And Achieve Maximum Impact While Minimizing Costs. With Our Strategic Approach, We Develop Cost-Effective Campaigns That Reach A Broader Audience. From Targeted Advertising To Optimized Content, We Ensure Your Message Resonates With Your Target Market. By Leveraging Our Seo Expertise, We Drive Organic Traffic And Improve Your Online Visibility. Our Team Of Experts Knows How To Maximize Your Marketing Budget And Deliver Measurable Results. Experience The Power Of Cost-Efficient Marketing With Nbt Biz.',
+      subtitle:'Our primary focus is to help businesses optimize their marketing efforts and achieve maximum impact while minimizing costs. With our strategic approach, we develop cost-effective campaigns that reach a broader audience. From targeted advertising to optimized content, we ensure your message resonates with your target market. By leveraging our SEO expertise, we drive organic traffic and improve your online visibility. Our team of experts knows how to maximize your marketing budget and deliver measurable results. Experience the power of cost-efficient marketing with Cntrl M.',
     }
   ]
 
@@ -329,7 +329,7 @@ const high_Production = `
               subtitle='Content Creation' 
             >
               <Spacing lg='40' md='20'/>
-              <p>We At Nbt Biz, Understand That Compelling And Engaging Content Is The Backbone Of Any Successful Marketing Campaign. Our Team Of Creative Professionals Specialises In Crafting Content That Resonates With Your Target Audience, Helping You To Effectively Communicate Your Brand Message And Achieve Your Marketing Goals.</p>
+              <p>We at Cntrl M understand that compelling and engaging content is the backbone of any successful marketing campaign. Our team of creative professionals specializes in crafting content that resonates with your target audience, helping you effectively communicate your brand message and achieve your marketing goals.</p>
             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-lg-1">
@@ -523,7 +523,7 @@ const high_Production = `
             >
               <Spacing lg='40' md='20'/>
               <p>
-              In A World Where Attention Is A Scarce Resource, Influencer Marketing Has Emerged As A Game-Changer. At Nbt Biz,
+              In A World Where Attention Is A Scarce Resource, Influencer Marketing Has Emerged As A Game-Changer. At Cntrl M,
                  We Specialize In Connecting Brands With Influencers Who Can Authentically Engage And Resonate With Your Target Audience.
                   Our Meticulous Approach Ensures That Every Collaboration Is Not Just A Transaction But A Strategic Partnership That Amplifies 
                   Your Brand Message. Let Us Help You Harness The Power Of Influence And Take Your Brand To New Heights.
@@ -768,10 +768,7 @@ const high_Production = `
             >
               <Spacing lg='40' md='20'/>
               <p>
-              In The Digital Realm, Your Website Is Often The First Interaction A Potential Customer Has With Your Brand.
-                 At Nbt Biz, We Understand The Importance Of Making That First Impression Count. Our Web Design Service Is Dedicated To Creating Visually Stunning,
-                  User-Friendly Websites That Not Only Reflect Your Brand Identity But Also Provide An Exceptional User Experience.
-                   Whether You Need A New Website Or Want To Revamp Your Existing One, Our Expert Designers Are Here To Turn Your Vision Into A Captivating Digital Reality.
+              In the digital realm, your website is often the first interaction a potential customer has with your brand. At Cntrl M, we understand the importance of making that first impression count. Our web design service is dedicated to creating visually stunning, user-friendly websites that not only reflect your brand identity but also provide an exceptional user experience. Whether you need a new website or want to revamp your existing one, our expert designers are here to turn your vision into a captivating digital reality.
               </p>
             </SectionHeading>
           </Div>

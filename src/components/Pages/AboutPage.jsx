@@ -72,10 +72,7 @@ export default function AboutPage() {
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              The Team At NBT Is Formed By A Curious Bunch Of Minds That Believe In Co-Creating Solutions With Clients.
-               We Are Not Looking To Provide You With Quick Fixes, But Equip Your Business With Critical Skills And Knowledge
-                That Can Facilitate Your Journey Into A Future Proof, Growing Brand. Our Mission Is To Build Long-Term Relationships
-                 With Clients And Partners While Empowering Them With Our Work.  
+              The team at Cntrl M is formed by a curious bunch of minds that believe in co-creating solutions with clients. We are not looking to provide you with quick fixes but to equip your business with critical skills and knowledge that can facilitate your journey into a future-proof, growing brand. Our mission is to build long-term relationships with clients and partners while empowering them with our work.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -166,7 +163,7 @@ export default function AboutPage() {
       {/* End Why Choose Section */}
 
       {/* Start Team Section */}
-      <TeamDetails />
+      {/* <TeamDetails /> */}
       {/* End Team Section */}
 
       

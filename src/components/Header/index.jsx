@@ -32,7 +32,8 @@ export default function Header({ variant }) {
             <Div className="cs-main_header_in">
               <Div className="cs-main_header_left">
                 <Link className="cs-site_branding" to="/">
-                  <img src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/NBT_logo.svg?updatedAt=1702460128837" alt="Logo" />
+                 
+                  <img src="/images/icons/logo.png" alt="Logo" />
                 </Link>
               </Div>
               <Div className="cs-main_header_center">
@@ -178,7 +179,8 @@ export default function Header({ variant }) {
         <Div className="cs-side_header_in">
           <Div className="cs-side_header_shape" />
           <Link className="cs-site_branding" to="/">
-            <img src="https://ik.imagekit.io/t4n9k9uxl/NBT%20Website/NBT_logo.svg?updatedAt=1702460128837" alt="Logo" />
+            
+            <img src="/images/icons/logo.png" alt="Logo" />
           </Link>
           <Div className="cs-side_header_box">
             <h2 className="cs-side_header_heading">

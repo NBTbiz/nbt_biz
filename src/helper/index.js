@@ -1,3 +1,3 @@
 export const pageTitle = (title) => {
-  return ( document.title = title + " - NBT");
+  return ( document.title = title + " - Cntrl M" );
 }

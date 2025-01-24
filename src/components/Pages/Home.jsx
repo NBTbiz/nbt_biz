@@ -23,11 +23,11 @@ export default function Home() {
   const heroSocialLinks = [
     {
       name: 'linkedin',
-      links: 'https://www.linkedin.com/company/nbt-business-solutions2022/',
+      // links: 'https://www.linkedin.com/company/nbt-business-solutions2022/',
     },
     {
       name: 'Instagram',
-      links: 'https://www.instagram.com/nbtbiz/',
+      // links: 'https://www.instagram.com/nbtbiz/',
     },
   ];
 
@@ -57,8 +57,7 @@ export default function Home() {
      
       <Hero
         title="It's The Growth Fizz That Does The Bizz"
-        subtitle="At Nbt Business Solutions, We Stand Out As The Premier Digital Marketing Agency In Kerala. More Than Just A Digital Marketing Company, Our Team Of Marketers, Creatives, Researchers, And Tech Enthusiasts Collaborates To Tackle Business Challenges. 
-        Our Mission Is Simple: Guide Brands To Uncover Their Purpose And Establish A Lasting Path To Success. Nbt Business Solutions, Your Top-Tier Digital Marketing Agency In Kerala."
+        subtitle="At Cntrl M, we stand out as the premier digital marketing agency in Kerala. More than just a digital marketing company, our team of marketers, creatives, researchers, and tech enthusiasts collaborates to tackle business challenges. Our mission is simple: guide brands to uncover their purpose and establish a lasting path to success. Cntrl M, your top-tier digital marketing agency in Kerala."
         btnText="Get a Quote"
         btnLink="/contact"
         scrollDownId="#service"
@@ -171,7 +170,7 @@ export default function Home() {
       
 
       {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
+      {/* <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
           title="Awesome Team <br/>Members"
@@ -180,7 +179,7 @@ export default function Home() {
         />
         <Spacing lg="85" md="45" />
         <TeamSlider />  
-      </Div>
+      </Div> */}
       <Spacing lg="150" md="80" />
    
       {/* Start Blog Section */}
